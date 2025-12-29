@@ -1,14 +1,12 @@
 {
-  "required": true,
-  "package": "net.vercte.wardenpacifier.mixin",
+  "required": false,
+  "package": "net.vercte.wardenpacifier.neoforge.mixin",
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
   ],
   "mixins": [
-    "MobMixin",
-    "WardenMixin",
-    "WardenVibrationUserMixin"
+    "PleaseExitMyDatagenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

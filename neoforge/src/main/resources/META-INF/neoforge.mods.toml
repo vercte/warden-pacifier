@@ -31,3 +31,6 @@ side = "BOTH"
 
 [[mixins]]
 config = "wardenpacifier.mixins.json"
+
+[[mixins]]
+config = "wardenpacifier-neoforge.mixins.json"
