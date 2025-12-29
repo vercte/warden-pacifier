@@ -18,7 +18,7 @@
       "net.vercte.wardenpacifier.fabric.WardenPacifierFabric"
     ],
     "client": [
-      "net.vercte.wardenpacifier.fabric.client.WardenPacifierFabricClient"
+      "net.vercte.wardenpacifier.fabric.WardenPacifierFabricClient"
     ]
   },
   "mixins": [

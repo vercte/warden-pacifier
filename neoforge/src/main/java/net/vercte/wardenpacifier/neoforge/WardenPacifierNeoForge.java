@@ -21,6 +21,8 @@ public final class WardenPacifierNeoForge {
         WardenPacifier.init();
         NeoForgeRegistryHelper.register(modEventBus);
 
+        modEventBus.addListener(WardenPacifierNeoForgeClient::registerLayer);
+        modEventBus.addListener(WardenPacifierNeoForgeClient::addEntityRenderLayers);
         modEventBus.addListener(WardenPacifierDatagen::gatherData);
 
         NeoForge.EVENT_BUS.addListener(WardenPacifierNeoForge::onPlayerInteract);
