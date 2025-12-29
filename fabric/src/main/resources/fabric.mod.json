@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wardenpacifier",
+  "version": "${version}",
+  "name": "warden-pacifier",
+  "description": "its just a little guy </3",
+  "authors": [
+    "Vercte"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/warden-pacifier/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.vercte.wardenpacifier.fabric.WardenPacifierFabric"
+    ],
+    "client": [
+      "net.vercte.wardenpacifier.fabric.client.WardenPacifierFabricClient"
+    ]
+  },
+  "mixins": [
+    "wardenpacifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

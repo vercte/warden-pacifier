@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+issueTrackerURL = "https://github.com/vercte/warden-pacifier"
+license = "MIT"
+
+[[mods]]
+modId = "wardenpacifier"
+version = "${version}"
+displayName = "warden-pacifier"
+authors = "Vercte"
+description = '''
+its just a little guy </3
+'''
+
+#logoFile = ""
+
+[[dependencies.wardenpacifier]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.wardenpacifier]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "wardenpacifier.mixins.json"
